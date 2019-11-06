@@ -19,8 +19,9 @@ class FormPosting{
         options = options || {};
         this.options.URL = options.URL || 'https://echo.htmlacademy.ru/';
         this.options.FORM_HTML = options.FORM_HTML || `<form action="${this.options.URL}" method="post" id="">
-                                                            <input type="text" name="post-title" id="" style="display: block;" required>
+                                                            <input type="text" name="post-title" id="" style="display: block;" placeholder="Title" required>
                                                             <textarea name="post-text" id="" cols="30" rows="10" required></textarea>
+                                                            <button type="submit">Post!</button>
                                                         </form>`;
     }
 
