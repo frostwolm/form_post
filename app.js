@@ -19,8 +19,96 @@ class FormPosting{
         options = options || {};
         this.options.URL = options.URL || 'https://echo.htmlacademy.ru/';
         this.options.FORM_HTML = options.FORM_HTML || `<form action="${this.options.URL}" method="post" id="">
-                                                            <input type="text" name="post-title" id="" style="display: block;" placeholder="Title" required>
-                                                            <textarea name="post-text" id="" cols="30" rows="10" style="display: block;" required></textarea>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
+                                                            <div name="post-container" class="post-container">
+                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <div class="radio-container"><input type="radio" name="sex-radio-1" id="" value="m"><input type="radio" name="sex-radio-1" id="" value="f"></div>
+                                                                <input type="text" name="post-title" id="" style="display: block;" placeholder="Title">
+                                                                <textarea name="post-text" id="" cols="30" rows="10" style="display: block;"></textarea>
+                                                            </div>
                                                             <button type="submit">Post!</button>
                                                         </form>`;
     }
