@@ -1,0 +1,3 @@
+.valid-form__input--not-valid{
+    border: 3px solid red;
+}

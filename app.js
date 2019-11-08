@@ -1,5 +1,3 @@
-
-
 class FormPosting{
     options = {};
     CONTAINER_ID = '';
@@ -18,6 +16,7 @@ class FormPosting{
     setDefaultOptions(options){
         options = options || {};
         this.options.URL = options.URL || 'https://echo.htmlacademy.ru/';
+        this.options.NOT_VALID_CSS_CLASS = "valid-form__input--not-valid";
         this.options.FORM_HTML = options.FORM_HTML || `<form action="${this.options.URL}" method="post" id="">
                                                             <div name="post-container" class="post-container">
                                                                 <input type="text" name="name" id="" style="display: block;" >
@@ -130,22 +129,35 @@ class FormPosting{
             let isRadioChecked = false;
             let isHasTextValue = false;
             let isInputValid = true;
+            let isPostText = false;
+            let isPostTitle = false;
             for (let i = 0; i < lstInputs.length; i++) {
                 const input = lstInputs[i];
                 
-                if (input.getAttribute('type') === 'text') {
+                if (input.getAttribute('name') === 'name') {
                     isHasTextValue = input.value.trim() !== '';
                 }
 
                 if (input.getAttribute('type') === 'radio') {
                     isRadioChecked = isRadioChecked || input.checked;
                 }
+
+                if (input.getAttribute('name') === 'post-title') {
+                    isPostTitle = input.value.trim() !== '';
+                }
+
             }
 
-            if (isHasTextValue) {
-                isInputValid = isRadioChecked;    
-            }else{
-                isInputValid = true;
+            let isObligatoryConditions = isPostTitle;
+
+            if (isObligatoryConditions) {
+                if (isHasTextValue) {
+                    isInputValid = isRadioChecked;    
+                }else{
+                    isInputValid = true;
+                }
+            } else {
+                isInputValid = false;
             }
             
             isFormValid = isFormValid && isInputValid;
