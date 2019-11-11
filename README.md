@@ -1,2 +1,2 @@
-2 forms
+2 forms.
 [Demo](https://frostwolm.github.io/form_post/)
