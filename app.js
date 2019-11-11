@@ -145,7 +145,7 @@ class FormPosting{
                 }
 
                 if (input.getAttribute('name') === 'radio-container') {
-                    let radiobuttons = input.children;
+                    let radiobuttons = input.querySelectorAll('[type="radio"]');
                     for (let k = 0; k < radiobuttons.length; k++) {
                         const radio = radiobuttons[k];
                         if (radio.getAttribute('type') === 'radio') {
