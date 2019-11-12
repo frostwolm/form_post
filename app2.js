@@ -125,7 +125,7 @@ class FormPosting2{
                         const radio = radiobuttons[k];
                         if (radio.getAttribute('type') === 'radio') {
                             isRadioChecked = isRadioChecked || radio.checked;
-                            if (isRadioChecked) {
+                            if (radio.checked) {
                                 inputData.radio = radio.value;
                             }
                         }
@@ -189,9 +189,11 @@ class FormPosting2{
 
         if (isFormValid) {
             let xhr = new XMLHttpRequest();
+            xhr.withCredentials = true;
             xhr.open(`${evt.currentTarget.getAttribute("method")}`, `${evt.currentTarget.getAttribute("action")}`, true);
             xhr.setRequestHeader("Content-type", "application/json");
-            xhr.send(JSON.stringify(inputsData));  
+            xhr.send(JSON.stringify(inputsData)); 
+            evt.currentTarget.submit(); 
         }
     }
 }
