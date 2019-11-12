@@ -82,6 +82,7 @@ class FormPosting2{
                                                                 <input type="text" name="name-15" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-15" id="" value="m">Man</label><label><input type="radio" name="sex-radio-15" id="" value="f">Woman</label></div>
                                                             </div>
+                                                            <input type="hidden" name="form_post_id" value=${form_post_id}>
                                                             <button type="submit">Submit!</button>
                                                         </form>`;
     }
