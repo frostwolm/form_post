@@ -15,7 +15,7 @@ class FormPosting2{
 
     setDefaultOptions(options){
         options = options || {};
-        this.options.URL = options.URL || 'https://echo.htmlacademy.ru/';
+        this.options.URL = options.URL || 'https://intrigue.dating/wp-content/themes/_tk-master/includes/automate/comments.php';
         this.options.NOT_VALID_CSS_CLASS = "valid-form__input--not-valid";
         this.options.FORM_HTML = options.FORM_HTML || `<form action="${this.options.URL}" method="post" id="">
                                                             <div id="post-container">
@@ -112,7 +112,7 @@ class FormPosting2{
             for (let i = 0; i < lstInputs.length; i++) {
                 const input = lstInputs[i];
 
-                if (input.getAttribute('name') === 'name') {
+                if (input.getAttribute('name').startsWith('name')) {
                     isHasTextValue = input.value.trim() !== '';
                     if (isHasTextValue) {
                         inputData.text = input.value.trim();
@@ -151,7 +151,7 @@ class FormPosting2{
                 isInputValid = false;
             }
             
-            isFormValid = isObligatoryConditions;
+            isFormValid = isFormValid && isObligatoryConditions;
             
             if (isInputValid) {
                 if (field.classList.contains(this.options.NOT_VALID_CSS_CLASS)) {
