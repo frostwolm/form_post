@@ -23,63 +23,63 @@ class FormPosting2{
                                                                 <textarea name="post-text" id="post-text" cols="30" rows="10"></textarea>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-1" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-1" id="" value="m">Man</label><label><input type="radio" name="sex-radio-1" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-2" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-2" id="" value="m">Man</label><label><input type="radio" name="sex-radio-2" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-3" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-3" id="" value="m">Man</label><label><input type="radio" name="sex-radio-3" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-4" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-4" id="" value="m">Man</label><label><input type="radio" name="sex-radio-4" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-5" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-5" id="" value="m">Man</label><label><input type="radio" name="sex-radio-5" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-6" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-6" id="" value="m">Man</label><label><input type="radio" name="sex-radio-6" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-7" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-7" id="" value="m">Man</label><label><input type="radio" name="sex-radio-7" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-8" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-8" id="" value="m">Man</label><label><input type="radio" name="sex-radio-8" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-9" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-9" id="" value="m">Man</label><label><input type="radio" name="sex-radio-9" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-10" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-10" id="" value="m">Man</label><label><input type="radio" name="sex-radio-10" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-11" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-11" id="" value="m">Man</label><label><input type="radio" name="sex-radio-11" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-12" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-12" id="" value="m">Man</label><label><input type="radio" name="sex-radio-12" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-13" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-13" id="" value="m">Man</label><label><input type="radio" name="sex-radio-13" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-14" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-14" id="" value="m">Man</label><label><input type="radio" name="sex-radio-14" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <div name="post-container" class="post-container">
-                                                                <input type="text" name="name" id="" style="display: block;" >
+                                                                <input type="text" name="name-15" id="" style="display: block;" >
                                                                 <div name="radio-container"><label><input type="radio" name="sex-radio-15" id="" value="m">Man</label><label><input type="radio" name="sex-radio-15" id="" value="f">Woman</label></div>
                                                             </div>
                                                             <button type="submit">Submit!</button>
